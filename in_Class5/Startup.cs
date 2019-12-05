@@ -12,8 +12,7 @@ using Microsoft.Extensions.DependencyInjection;
 using in_Class5.Models.FoodStore;
 using in_Class5.Models.Portfolio;
 using Microsoft.EntityFrameworkCore;
-
-
+using Microsoft.EntityFrameworkCore.SqlServer;
 
 namespace in_Class5
 {
@@ -48,10 +47,11 @@ namespace in_Class5
 
             //register connection string to the settigns: 
 
-            services.AddDbContext<ProtfolioContext>(options => options.UseSqlServer(connection));
-            services.AddDbContext<FoodStoreContext>(options => options.UseSqlServer(foodConnection));
+            services.AddDbContext<ProtfolioContext>(options => options.UseSqlite(connection));
+            services.AddDbContext<FoodStoreContext>(options => options.UseSqlite(foodConnection));
 
         }
+
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
@@ -79,4 +79,4 @@ namespace in_Class5
             });
         }
     }
-}
+}                             

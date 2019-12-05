@@ -7,8 +7,7 @@ using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
-
-// rename app settings, add to source control; add  appsetting.json,  appsettings.Development.json to gitignore 
+using Microsoft.EntityFrameworkCore.SqlServer;
 
 namespace in_Class5
 {

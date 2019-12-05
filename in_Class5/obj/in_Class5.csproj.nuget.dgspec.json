@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\A01211467\\Desktop\\in_Class5\\in_Class5\\in_Class5.csproj": {}
+    "C:\\Users\\A01211467\\Desktop\\cSharp_ASP.net\\in_Class5\\in_Class5.csproj": {}
   },
   "projects": {
-    "C:\\Users\\A01211467\\Desktop\\in_Class5\\in_Class5\\in_Class5.csproj": {
+    "C:\\Users\\A01211467\\Desktop\\cSharp_ASP.net\\in_Class5\\in_Class5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\A01211467\\Desktop\\in_Class5\\in_Class5\\in_Class5.csproj",
+        "projectUniqueName": "C:\\Users\\A01211467\\Desktop\\cSharp_ASP.net\\in_Class5\\in_Class5.csproj",
         "projectName": "in_Class5",
-        "projectPath": "C:\\Users\\A01211467\\Desktop\\in_Class5\\in_Class5\\in_Class5.csproj",
+        "projectPath": "C:\\Users\\A01211467\\Desktop\\cSharp_ASP.net\\in_Class5\\in_Class5.csproj",
         "packagesPath": "C:\\Users\\A01211467\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\A01211467\\Desktop\\in_Class5\\in_Class5\\obj\\",
+        "outputPath": "C:\\Users\\A01211467\\Desktop\\cSharp_ASP.net\\in_Class5\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -55,6 +55,10 @@
             },
             "Microsoft.AspNetCore.Razor.Design": {
               "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[2.2.0, )"
             },
